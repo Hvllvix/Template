@@ -1,0 +1,34 @@
+Template/
+├── Dashboard
+│   ├── Pages
+│   │   └── .gitkeep
+│   └── app.py
+├── Data
+│   ├── Maps
+│   │   └── .gitkeep
+│   ├── Processed
+│   │   └── .gitkeep
+│   └── Raw
+│       └── .gitkeep
+├── Models
+│   └── .gitkeep
+├── Notebooks
+│   ├── Themes
+│   │   ├── Dark.mplstyle
+│   │   └── Light.mplstyle
+│   ├── Evaluation.ipynb
+│   ├── Modeling.ipynb
+│   └── Pre-Processing.ipynb
+├── Scripts
+│   └── tree.py
+├── Skills
+│   ├── Design
+│   │   └── SKILL.md
+│   ├── Documentation
+│   │   └── SKILL.md
+│   └── Syntax
+│       └── SKILL.md
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── tree.txt

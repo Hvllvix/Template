@@ -1,0 +1,33 @@
+# Light theme — same structure and Colors palette as Dark.mplstyle, inverted surface
+# Usage: plt.style.use('../Notebooks/Themes/Light.mplstyle')
+
+figure.facecolor: FFFFFF
+axes.facecolor: FFFFFF
+savefig.facecolor: FFFFFF
+
+text.color: 22272E
+axes.labelcolor: 22272E
+xtick.color: 22272E
+ytick.color: 22272E
+
+axes.edgecolor: FFFFFF
+axes.spines.top: False
+axes.spines.right: False
+axes.spines.left: False
+axes.spines.bottom: False
+
+grid.color: E1E4E8
+grid.linestyle: --
+grid.alpha: 0.5
+axes.grid: False
+axes.grid.axis: y
+
+axes.titlelocation: left
+axes.titlesize: 14
+axes.titlepad: 20
+
+axes.prop_cycle: cycler('color', ['F4583E', '62C1FE', '8957E5', '2EA043', '444C56', 'D29922', 'F92672'])
+
+figure.figsize: 24, 6
+font.size: 10
+legend.frameon: False

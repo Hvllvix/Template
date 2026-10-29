@@ -1,0 +1,33 @@
+# Dark theme — matches the #22272E dark UI used across notebooks and dashboard
+# Usage: plt.style.use('../Notebooks/Themes/Dark.mplstyle')
+
+figure.facecolor: 22272E
+axes.facecolor: 22272E
+savefig.facecolor: 22272E
+
+text.color: white
+axes.labelcolor: white
+xtick.color: white
+ytick.color: white
+
+axes.edgecolor: 22272E
+axes.spines.top: False
+axes.spines.right: False
+axes.spines.left: False
+axes.spines.bottom: False
+
+grid.color: 32373E
+grid.linestyle: --
+grid.alpha: 0.5
+axes.grid: False
+axes.grid.axis: y
+
+axes.titlelocation: left
+axes.titlesize: 14
+axes.titlepad: 20
+
+axes.prop_cycle: cycler('color', ['F4583E', '62C1FE', '8957E5', '2EA043', '444C56', 'D29922', 'F92672'])
+
+figure.figsize: 24, 6
+font.size: 10
+legend.frameon: False
